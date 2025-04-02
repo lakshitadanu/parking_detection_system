@@ -44,9 +44,9 @@ The project consists of two main scripts, each playing a crucial role in the sys
 First, download the project from GitHub:
 
 
-    git clone https://github.com/your-repo/parking-detection.git
+    git clone https://github.com/lakshitadanu/parking_detection_system.git
+    cd parking_detection_system
 
-    cd parking-detection
 
 ### 📌 Step 2: Create a Virtual Environment (Recommended)
 To avoid dependency conflicts, create and activate a virtual environment:    
@@ -84,9 +84,8 @@ Then, verify the installation:
 
 ### 📌 Step 4: Download YOLOv8 Model (best.pt)
 
-Ensure the trained YOLOv8 model **(best.pt)** is in the project directory. If missing, download it:
+ Ensure the trained YOLOv8 model **(best.pt)** is in the project directory. If missing, download it manually after training the Yolov8 model, and place it in the project directory.
 
-    gdown --id YOUR_FILE_ID -O best.pt
 
 
 
